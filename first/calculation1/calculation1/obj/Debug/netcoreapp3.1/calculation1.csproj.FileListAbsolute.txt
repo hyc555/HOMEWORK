@@ -1,0 +1,13 @@
+E:\VisualStudio\calculation1\calculation1\bin\Debug\netcoreapp3.1\calculation1.exe
+E:\VisualStudio\calculation1\calculation1\bin\Debug\netcoreapp3.1\calculation1.deps.json
+E:\VisualStudio\calculation1\calculation1\bin\Debug\netcoreapp3.1\calculation1.runtimeconfig.json
+E:\VisualStudio\calculation1\calculation1\bin\Debug\netcoreapp3.1\calculation1.runtimeconfig.dev.json
+E:\VisualStudio\calculation1\calculation1\bin\Debug\netcoreapp3.1\calculation1.dll
+E:\VisualStudio\calculation1\calculation1\bin\Debug\netcoreapp3.1\calculation1.pdb
+E:\VisualStudio\calculation1\calculation1\obj\Debug\netcoreapp3.1\calculation1.csprojAssemblyReference.cache
+E:\VisualStudio\calculation1\calculation1\obj\Debug\netcoreapp3.1\calculation1.AssemblyInfoInputs.cache
+E:\VisualStudio\calculation1\calculation1\obj\Debug\netcoreapp3.1\calculation1.AssemblyInfo.cs
+E:\VisualStudio\calculation1\calculation1\obj\Debug\netcoreapp3.1\calculation1.csproj.CoreCompileInputs.cache
+E:\VisualStudio\calculation1\calculation1\obj\Debug\netcoreapp3.1\calculation1.dll
+E:\VisualStudio\calculation1\calculation1\obj\Debug\netcoreapp3.1\calculation1.pdb
+E:\VisualStudio\calculation1\calculation1\obj\Debug\netcoreapp3.1\calculation1.genruntimeconfig.cache
