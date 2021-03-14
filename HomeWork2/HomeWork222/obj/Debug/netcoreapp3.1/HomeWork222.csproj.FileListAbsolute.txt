@@ -1,0 +1,13 @@
+E:\VisualStudio\HOMEWORK\HomeWork2\HomeWork222\bin\Debug\netcoreapp3.1\HomeWork222.exe
+E:\VisualStudio\HOMEWORK\HomeWork2\HomeWork222\bin\Debug\netcoreapp3.1\HomeWork222.deps.json
+E:\VisualStudio\HOMEWORK\HomeWork2\HomeWork222\bin\Debug\netcoreapp3.1\HomeWork222.runtimeconfig.json
+E:\VisualStudio\HOMEWORK\HomeWork2\HomeWork222\bin\Debug\netcoreapp3.1\HomeWork222.runtimeconfig.dev.json
+E:\VisualStudio\HOMEWORK\HomeWork2\HomeWork222\bin\Debug\netcoreapp3.1\HomeWork222.dll
+E:\VisualStudio\HOMEWORK\HomeWork2\HomeWork222\bin\Debug\netcoreapp3.1\HomeWork222.pdb
+E:\VisualStudio\HOMEWORK\HomeWork2\HomeWork222\obj\Debug\netcoreapp3.1\HomeWork222.AssemblyInfoInputs.cache
+E:\VisualStudio\HOMEWORK\HomeWork2\HomeWork222\obj\Debug\netcoreapp3.1\HomeWork222.AssemblyInfo.cs
+E:\VisualStudio\HOMEWORK\HomeWork2\HomeWork222\obj\Debug\netcoreapp3.1\HomeWork222.csproj.CoreCompileInputs.cache
+E:\VisualStudio\HOMEWORK\HomeWork2\HomeWork222\obj\Debug\netcoreapp3.1\HomeWork222.dll
+E:\VisualStudio\HOMEWORK\HomeWork2\HomeWork222\obj\Debug\netcoreapp3.1\HomeWork222.pdb
+E:\VisualStudio\HOMEWORK\HomeWork2\HomeWork222\obj\Debug\netcoreapp3.1\HomeWork222.genruntimeconfig.cache
+E:\VisualStudio\HOMEWORK\HomeWork2\HomeWork222\obj\Debug\netcoreapp3.1\HomeWork222.csprojAssemblyReference.cache
