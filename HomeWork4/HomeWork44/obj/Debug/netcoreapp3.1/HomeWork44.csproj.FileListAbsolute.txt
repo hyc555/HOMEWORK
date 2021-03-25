@@ -1,0 +1,13 @@
+E:\VisualStudio\HOMEWORK\HomeWork4\HomeWork44\bin\Debug\netcoreapp3.1\HomeWork44.exe
+E:\VisualStudio\HOMEWORK\HomeWork4\HomeWork44\bin\Debug\netcoreapp3.1\HomeWork44.deps.json
+E:\VisualStudio\HOMEWORK\HomeWork4\HomeWork44\bin\Debug\netcoreapp3.1\HomeWork44.runtimeconfig.json
+E:\VisualStudio\HOMEWORK\HomeWork4\HomeWork44\bin\Debug\netcoreapp3.1\HomeWork44.runtimeconfig.dev.json
+E:\VisualStudio\HOMEWORK\HomeWork4\HomeWork44\bin\Debug\netcoreapp3.1\HomeWork44.dll
+E:\VisualStudio\HOMEWORK\HomeWork4\HomeWork44\bin\Debug\netcoreapp3.1\HomeWork44.pdb
+E:\VisualStudio\HOMEWORK\HomeWork4\HomeWork44\obj\Debug\netcoreapp3.1\HomeWork44.csprojAssemblyReference.cache
+E:\VisualStudio\HOMEWORK\HomeWork4\HomeWork44\obj\Debug\netcoreapp3.1\HomeWork44.AssemblyInfoInputs.cache
+E:\VisualStudio\HOMEWORK\HomeWork4\HomeWork44\obj\Debug\netcoreapp3.1\HomeWork44.AssemblyInfo.cs
+E:\VisualStudio\HOMEWORK\HomeWork4\HomeWork44\obj\Debug\netcoreapp3.1\HomeWork44.csproj.CoreCompileInputs.cache
+E:\VisualStudio\HOMEWORK\HomeWork4\HomeWork44\obj\Debug\netcoreapp3.1\HomeWork44.dll
+E:\VisualStudio\HOMEWORK\HomeWork4\HomeWork44\obj\Debug\netcoreapp3.1\HomeWork44.pdb
+E:\VisualStudio\HOMEWORK\HomeWork4\HomeWork44\obj\Debug\netcoreapp3.1\HomeWork44.genruntimeconfig.cache
