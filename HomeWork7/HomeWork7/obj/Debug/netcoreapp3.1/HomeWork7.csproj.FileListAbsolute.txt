@@ -1,0 +1,15 @@
+E:\VisualStudio\HOMEWORK\HomeWork7\HomeWork7\bin\Debug\netcoreapp3.1\HomeWork7.exe
+E:\VisualStudio\HOMEWORK\HomeWork7\HomeWork7\bin\Debug\netcoreapp3.1\HomeWork7.deps.json
+E:\VisualStudio\HOMEWORK\HomeWork7\HomeWork7\bin\Debug\netcoreapp3.1\HomeWork7.runtimeconfig.json
+E:\VisualStudio\HOMEWORK\HomeWork7\HomeWork7\bin\Debug\netcoreapp3.1\HomeWork7.runtimeconfig.dev.json
+E:\VisualStudio\HOMEWORK\HomeWork7\HomeWork7\bin\Debug\netcoreapp3.1\HomeWork7.dll
+E:\VisualStudio\HOMEWORK\HomeWork7\HomeWork7\bin\Debug\netcoreapp3.1\HomeWork7.pdb
+E:\VisualStudio\HOMEWORK\HomeWork7\HomeWork7\obj\Debug\netcoreapp3.1\HomeWork7.csprojAssemblyReference.cache
+E:\VisualStudio\HOMEWORK\HomeWork7\HomeWork7\obj\Debug\netcoreapp3.1\HomeWork7.Form1.resources
+E:\VisualStudio\HOMEWORK\HomeWork7\HomeWork7\obj\Debug\netcoreapp3.1\HomeWork7.csproj.GenerateResource.cache
+E:\VisualStudio\HOMEWORK\HomeWork7\HomeWork7\obj\Debug\netcoreapp3.1\HomeWork7.AssemblyInfoInputs.cache
+E:\VisualStudio\HOMEWORK\HomeWork7\HomeWork7\obj\Debug\netcoreapp3.1\HomeWork7.AssemblyInfo.cs
+E:\VisualStudio\HOMEWORK\HomeWork7\HomeWork7\obj\Debug\netcoreapp3.1\HomeWork7.csproj.CoreCompileInputs.cache
+E:\VisualStudio\HOMEWORK\HomeWork7\HomeWork7\obj\Debug\netcoreapp3.1\HomeWork7.dll
+E:\VisualStudio\HOMEWORK\HomeWork7\HomeWork7\obj\Debug\netcoreapp3.1\HomeWork7.pdb
+E:\VisualStudio\HOMEWORK\HomeWork7\HomeWork7\obj\Debug\netcoreapp3.1\HomeWork7.genruntimeconfig.cache

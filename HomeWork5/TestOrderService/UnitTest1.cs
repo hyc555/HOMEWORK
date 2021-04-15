@@ -1,11 +1,15 @@
-Ôªøusing System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Xunit.Sdk;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Xml.Serialization;
+using HomeWork5;
 
 namespace HomeWork5
 {
+    [Serializable]
     public class Order
     {
         string orderNumber;
@@ -18,13 +22,13 @@ namespace HomeWork5
         {
         }
 
-        public Order(string orderNumber, double price, string cilent)
+        public Order(string orderNumber, double price,  string cilent)
         {
             this.orderNumber = orderNumber;
             this.price = price;
             this.time = DateTime.Now;
             this.cilent = cilent;
-
+            
         }
 
         public string OrderNumber
@@ -61,7 +65,7 @@ namespace HomeWork5
 
         public override string ToString()
         {
-            return $"‰π∞ÂÆ∂Áî®Êà∑ÂêçÔºö{cilent}Ôºå‰ª∑Ê†ºÔºö{price}ÔºåË¥≠‰π∞Êó∂Èó¥Ôºö{time.ToString("yyyyÂπ¥MMÊúàddÊó• HH:mm:ss")}ÔºåËÆ¢ÂçïÂè∑Ôºö{orderNumber}";
+            return $"¬Úº“”√ªß√˚£∫{cilent}£¨º€∏Ò£∫{price}£¨π∫¬Ú ±º‰£∫{time.ToString("yyyyƒÍMM‘¬dd»’ HH:mm:ss")}£¨∂©µ•∫≈£∫{orderNumber}";
         }
 
     }
@@ -118,7 +122,7 @@ namespace HomeWork5
 
         public override string ToString()
         {
-            return $"ÂïÜÂìÅÂêçÔºö{goodsName},Êï∞Èáè:{number},‰ª∑Ê†º:{price}";
+            return $"…Ã∆∑√˚£∫{goodsName}, ˝¡ø:{number},º€∏Ò:{price}";
         }
     }
 
@@ -185,7 +189,7 @@ namespace HomeWork5
                             orderby Order.Price
                             select Order;
             List<Order> goalOrderList = goalOrder.ToList();
-            return goalOrderList;
+            return goalList;
         }
         public void AddOrder(Order order)
         {
@@ -195,7 +199,7 @@ namespace HomeWork5
                 if (o.Equals(order))
                 {
                     flag = true;
-                    throw new OptionException("ËÆ¢ÂçïÂ∑≤Â≠òÂú®");
+                    throw new OptionException("∂©µ•“—¥Ê‘⁄");
                 }
 
             }
@@ -213,7 +217,7 @@ namespace HomeWork5
                 if (o.Equals(orderDetails))
                 {
                     flag = true;
-                    throw new OptionException("ËÆ¢ÂçïÂ∑≤Â≠òÂú®");
+                    throw new OptionException("∂©µ•“—¥Ê‘⁄");
                 }
 
             }
@@ -225,20 +229,19 @@ namespace HomeWork5
 
         public void DeletOrder(Order order)
         {
-            if (list.Exists(x => x.OrderNumber.Equals(order.OrderNumber)))
+            if (list.Exists(x => x.OrderNumber.Equals( order.OrderNumber)))
             {
-                for (int i = 0; i < list.Count; i++)
+                for(int i=0;i<list.Count;i++)
                 {
                     if (order.OrderNumber.Equals(list[i].OrderNumber))
                     {
                         list.Remove(list[i]);
-                        Console.WriteLine(List[i].ToString());
                     }
                 }
             }
             else
             {
-                throw new OptionException("ËÆ¢Âçï‰∏çÂ≠òÂú®");
+                throw new OptionException("∂©µ•≤ª¥Ê‘⁄");
             }
         }
 
@@ -253,7 +256,7 @@ namespace HomeWork5
             }
             else
             {
-                throw new OptionException("ËÆ¢Âçï‰∏çÂ≠òÂú®");
+                throw new OptionException("∂©µ•≤ª¥Ê‘⁄");
             }
 
         }
@@ -282,28 +285,152 @@ namespace HomeWork5
         {
         }
     }
-
-class Program
+}
+namespace TestOrderService
+{
+    [TestClass]
+    public class UnitTest1
     {
-        static void Main(string[] args)
+        [TestInitialize]
+        //public void Init()
+        //{
+        //    Order order1 = new Order("1", 10, "LiMing");
+        //    OrderDetails orderDetails1 = new OrderDetails("∑ ‘Ì", 1, 2);
+        //    order1.OrderDetails.Add(orderDetails1);
+        //    OrderDetails orderDetails2 = new OrderDetails("œ„‘Ì", 2, 3);
+        //    order1.OrderDetails.Add(orderDetails2);
+        //    Order order2 = new Order("1", 10, "LiMing");
+        //    OrderDetails orderDetails3 = new OrderDetails("Õ¡∂π", 0.5, 5);
+        //    order1.OrderDetails.Add(orderDetails1);
+        //    OrderDetails orderDetails4 = new OrderDetails("¬Ì¡Â Ì", 0.7, 4);
+        //    order1.OrderDetails.Add(orderDetails2);
+        //    OrderService orderService = new OrderService();
+        //    orderService.AddOrder(order1);
+        //    orderService.AddOrder(order2);
+
+        //}
+        [TestMethod]
+        public void TestMethod1()
+        {
+            Order order1 = new Order("1", 10, "LiMing");
+            Order order2 = new Order("2", 10, "LiMei" +
+                "");
+            OrderService orderService = new OrderService();
+            orderService.AddOrder(order1);
+            orderService.AddDetails(order1, "∑ ‘Ì", 5, 2);
+            orderService.AddDetails(order1, "œ„‘Ì", 5, 8);
+            orderService.AddOrder(order2);
+            orderService.AddDetails(order2, "Õ¡∂π", 3, 5);
+            orderService.AddDetails(order2, "¬Ì¡Â Ì", 7, 5);
+            List<Order> l=orderService.SelectOrderByNumber("1");
+            CollectionAssert.Equals(l[0], order1);
+        }
+        [TestMethod]
+        public void TestMethod2()
         {
             Order order1 = new Order("1", 10, "LiMing");
             Order order2 = new Order("2", 10, "LiMei");
             OrderService orderService = new OrderService();
             orderService.AddOrder(order1);
-            orderService.AddDetails(order1, "ËÇ•ÁöÇ", 5, 2);
-            orderService.AddDetails(order1, "È¶ôÁöÇ", 5, 8);
+            orderService.AddDetails(order1, "∑ ‘Ì", 5, 2);
+            orderService.AddDetails(order1, "œ„‘Ì", 5, 8);
             orderService.AddOrder(order2);
-            orderService.AddDetails(order2, "ÂúüË±Ü", 3, 5);
-            orderService.AddDetails(order2, "È©¨ÈìÉËñØ", 7, 5);
-            orderService.DeletOrder(order1);
-            List<Order> l = orderService.SelectOrderByCilent("LiMin");
-            if (l == null)
-            {
-                Console.WriteLine("good");
-            }
-
+            orderService.AddDetails(order2, "Õ¡∂π", 3, 5);
+            orderService.AddDetails(order2, "¬Ì¡Â Ì", 7, 5);
+            List<Order> l = orderService.SelectOrderByCilent("LiMei");
+            CollectionAssert.Equals(l[0], order2);
         }
+        [TestMethod]
+        public void TestMethod3()
+        {
+            Order order1 = new Order("1", 10, "LiMing");
+            Order order2 = new Order("2", 10, "LiMei");
+            OrderService orderService = new OrderService();
+            orderService.AddOrder(order1);
+            orderService.AddDetails(order1, "∑ ‘Ì", 5, 2);
+            orderService.AddDetails(order1, "œ„‘Ì", 5, 8);
+            orderService.AddOrder(order2);
+            orderService.AddDetails(order2, "Õ¡∂π", 3, 5);
+            orderService.AddDetails(order2, "¬Ì¡Â Ì", 7, 5);
+            List<Order> l = orderService.SelectOrderByPrice(10);
+            CollectionAssert.Equals(l[0], order1);
+        }
+        [TestMethod]
+        public void TestMethod4()
+        {
+            Order order1 = new Order("1", 10, "LiMing");
+            Order order2 = new Order("2", 10, "LiMei");
+            OrderService orderService = new OrderService();
+            orderService.AddOrder(order1);
+            orderService.AddDetails(order1, "∑ ‘Ì", 5, 2);
+            orderService.AddDetails(order1, "œ„‘Ì", 5, 8);
+            orderService.AddOrder(order2);
+            orderService.AddDetails(order2, "Õ¡∂π", 3, 5);
+            orderService.AddDetails(order2, "¬Ì¡Â Ì", 7, 5);
+            List<Order> l = orderService.SelectOrderByGoods("Õ¡∂π");
+            CollectionAssert.Equals(l[0], order2);
+        }
+        [TestMethod]
+        public void TestMethod5()
+        {
+            Order order1 = new Order("1", 10, "LiMing");
+            Order order2 = new Order("2", 10, "LiMei");
+            OrderService orderService = new OrderService();
+            orderService.AddOrder(order1);
+            orderService.AddDetails(order1, "∑ ‘Ì", 5, 2);
+            orderService.AddDetails(order1, "œ„‘Ì", 5, 8);
+            orderService.AddOrder(order2);
+            orderService.AddDetails(order2, "Õ¡∂π", 3, 5);
+            orderService.AddDetails(order2, "¬Ì¡Â Ì", 7, 5);
+            orderService.DeletOrder(order1);
+            List<Order> l = orderService.SelectOrderByNumber("1");
+            Assert.IsNull(l[0]);
+        }
+        [TestMethod]
+        public void TestMethod6()
+        {
+            Order order1 = new Order("1", 10, "LiMing");
+            Order order2 = new Order("2", 10, "LiMei");
+            OrderService orderService = new OrderService();
+            orderService.AddOrder(order1);
+            orderService.AddDetails(order1, "∑ ‘Ì", 5, 2);
+            orderService.AddDetails(order1, "œ„‘Ì", 5, 8);
+            orderService.AddOrder(order2);
+            orderService.AddDetails(order2, "Õ¡∂π", 3, 5);
+            orderService.AddDetails(order2, "¬Ì¡Â Ì", 7, 5);
+            Order order3 = new Order("1", 8, "WangMei");
+            orderService.ChangeOrder(order3);
+            List<Order> l = orderService.SelectOrderByCilent("WangMei");
+            CollectionAssert.Equals(l[0].OrderNumber, 1);
+        }
+        [TestMethod]
+        public void TestMethod7()
+        {
+            Order order1 = new Order("1", 10, "LiMing");
+            Order order2 = new Order("2", 10, "LiMei");
+            OrderService orderService = new OrderService();
+            orderService.AddOrder(order1);
+            orderService.AddDetails(order1, "∑ ‘Ì", 5, 2);
+            orderService.AddDetails(order1, "œ„‘Ì", 5, 8);
+            orderService.AddOrder(order2);
+            orderService.AddDetails(order2, "Õ¡∂π", 3, 5);
+            orderService.AddDetails(order2, "¬Ì¡Â Ì", 7, 5);
+            orderService.Expotr(orderService.List);
+        }
+        [TestMethod]
+        public void TestMethod8()
+        {
+            Order order1 = new Order("1", 10, "LiMing");
+            Order order2 = new Order("2", 10, "LiMei");
+            OrderService orderService = new OrderService();
+            orderService.AddOrder(order1);
+            orderService.AddDetails(order1, "∑ ‘Ì", 5, 2);
+            orderService.AddDetails(order1, "œ„‘Ì", 5, 8);
+            orderService.AddOrder(order2);
+            orderService.AddDetails(order2, "Õ¡∂π", 3, 5);
+            orderService.AddDetails(order2, "¬Ì¡Â Ì", 7, 5);
+            orderService.Import(orderService.List);
+        }
+
     }
 }
-
