@@ -1,0 +1,16 @@
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.5\bin\Debug\HomeWork8.5.exe.config
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.5\bin\Debug\HomeWork8.5.exe
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.5\bin\Debug\HomeWork8.5.pdb
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.5\bin\Debug\Microsoft.Bcl.HashCode.dll
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.5\bin\Debug\Microsoft.Bcl.HashCode.xml
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.5\obj\Debug\HomeWork8.5.csprojAssemblyReference.cache
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.5\obj\Debug\HomeWork8._5.Form1.resources
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.5\obj\Debug\HomeWork8._5.Properties.Resources.resources
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.5\obj\Debug\HomeWork8.5.csproj.GenerateResource.cache
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.5\obj\Debug\HomeWork8.5.csproj.CoreCompileInputs.cache
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.5\obj\Debug\HomeWork8.5.csproj.CopyComplete
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.5\obj\Debug\HomeWork8.5.exe
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.5\obj\Debug\HomeWork8.5.pdb
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.5\bin\Debug\HomeWork8.6.exe
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.5\bin\Debug\HomeWork8.6.pdb
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.5\bin\Debug\HomeWork8.6.exe.config

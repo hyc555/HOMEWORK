@@ -1,0 +1,9 @@
+E:\VisualStudio\HOMEWORK\HomewWork9\HomewWork9\obj\Debug\HomewWork9.Form1.resources
+E:\VisualStudio\HOMEWORK\HomewWork9\HomewWork9\obj\Debug\HomewWork9.Properties.Resources.resources
+E:\VisualStudio\HOMEWORK\HomewWork9\HomewWork9\obj\Debug\HomewWork9.csproj.GenerateResource.cache
+E:\VisualStudio\HOMEWORK\HomewWork9\HomewWork9\obj\Debug\HomewWork9.csproj.CoreCompileInputs.cache
+E:\VisualStudio\HOMEWORK\HomewWork9\HomewWork9\bin\Debug\HomewWork9.exe.config
+E:\VisualStudio\HOMEWORK\HomewWork9\HomewWork9\bin\Debug\HomewWork9.exe
+E:\VisualStudio\HOMEWORK\HomewWork9\HomewWork9\bin\Debug\HomewWork9.pdb
+E:\VisualStudio\HOMEWORK\HomewWork9\HomewWork9\obj\Debug\HomewWork9.exe
+E:\VisualStudio\HOMEWORK\HomewWork9\HomewWork9\obj\Debug\HomewWork9.pdb

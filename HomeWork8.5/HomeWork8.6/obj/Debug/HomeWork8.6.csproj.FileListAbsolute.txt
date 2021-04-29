@@ -1,0 +1,10 @@
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.6\bin\Debug\HomeWork8.6.exe.config
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.6\bin\Debug\HomeWork8.6.exe
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.6\bin\Debug\HomeWork8.6.pdb
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.6\bin\Debug\Microsoft.Bcl.HashCode.dll
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.6\bin\Debug\Microsoft.Bcl.HashCode.xml
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.6\obj\Debug\HomeWork8.6.csprojAssemblyReference.cache
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.6\obj\Debug\HomeWork8.6.csproj.CoreCompileInputs.cache
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.6\obj\Debug\HomeWork8.6.csproj.CopyComplete
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.6\obj\Debug\HomeWork8.6.exe
+E:\VisualStudio\HOMEWORK\HomeWork8.5\HomeWork8.6\obj\Debug\HomeWork8.6.pdb

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HomeWork8/1.0.0": {
+        "dependencies": {
+          "HomeWork5": "1.0.0"
+        },
+        "runtime": {
+          "HomeWork8.dll": {}
+        }
+      },
+      "HomeWork5/1.0.0": {
+        "runtime": {
+          "HomeWork5.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HomeWork8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HomeWork5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
